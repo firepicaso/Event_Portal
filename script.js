@@ -65,6 +65,9 @@ function addFeaturedSpeakers() {
         const featuredSpeakerCard = document.createElement('div');
         featuredSpeakerCard.classList.add('featured-speaker-card');
         
+        const speakerImageContainer = document.createElement('div');
+        speakerImageContainer.classList.add('featured-image-container');
+        
         const speakerImage = document.createElement('img');
         speakerImage.src = speaker.image;
         speakerImage.alt = speaker.fullNameame;
@@ -86,17 +89,18 @@ function addFeaturedSpeakers() {
         featuredSpeakerAchievement.classList.add('featured-speaker-achievement');
         featuredSpeakerAchievement.textContent = speaker.achievement;
     
+        speakerImageContainer.appendChild(speakerImage);
+        
         featuredSpeakerDetails.appendChild(featuredSpeakerName);
         featuredSpeakerDetails.appendChild(featuredSpeakerAssoication);
         featuredSpeakerDetails.appendChild(hr);
         featuredSpeakerDetails.appendChild(featuredSpeakerAchievement);
     
-        featuredSpeakerCard.appendChild(speakerImage);
+        featuredSpeakerCard.appendChild(speakerImageContainer);
         featuredSpeakerCard.appendChild(featuredSpeakerDetails);
     
         featuredSpeaker.appendChild(featuredSpeakerCard);
     });
 }
 
-// featuredSpeaker.innerHTML = '';
 document.addEventListener('DOMContentLoaded', addFeaturedSpeakers);
