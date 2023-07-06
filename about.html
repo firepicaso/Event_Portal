@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Event Portal</title>
+    <title>About Page</title>
 </head>
 <body>
-    <header>
+    <header class="header">
         <div class="social">
             <a href="https://www.facebook.com/mustakim.masum">
                 <img src="./Assets/facebook.png" alt="facebook profile">
@@ -21,37 +21,130 @@
             <a href="#">Logout</a>
         </div>
         <div class="nav-container">
-            <a href="./index.html">
-                <img src="/Assets/EventLogo.svg" alt="Event Logo">
-            </a>
+            <div class="logo">
+                <a href="./index.html">
+                    <img src="/Assets/EventLogo.svg" alt="Event Logo">
+                </a>
+            </div>
             <nav class="nav">
                 <div class="menu-icon">
-                    <img src="Assets/MenuIcon.png" alt="menu-icon">
+                    <img src="Assets/menu.png" alt="menu-icon">
                 </div>
                 <div class="cancel-icon">
                     <img src="Assets/Cancel.svg" alt="cancel-icon">
                 </div>
                 <ul class="pages">
-                    <li><a href="#about"class="page-selection">About</a></li>
+                    <li><a href="./about.html"class="page-selection">About</a></li>
                     <li><a href="#program"class="page-selection">Program</a></li>
                     <li><a href="#join"page-selection">Join</a></li>
                     <li><a href="#sponsor" class="page-selection">Sponsor</a></li>
                     <li><a href="#news" class="page-selection">News</a></li>
-                    <li><a href="#cccampaign" class="page-selection">CC Campaign</a></li>
+                    <li><a href="#cccampaign" class="page-selection">AI Showcase</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <main>
         <section class="hero-section">
-
+            <div class="hero-section-container">
+                <h1>"Hello! AI Enthusiasts"</h1>
+                <h2 class="hero-heading">GLOBAL AI CONVENTION<br>2023</h2>
+                <p>
+                    The Global AI Convention in Dhaka brings together leading minds in artificial intelligence from around the world for a dynamic exchange of ideas and advancements.
+                </p>
+                <h2 class="event-date">2023.8.1(TUE)~5(SAT)</h2>
+                <h2 class="event-venue">@ Radisson Blu Water Garden Hotel, Dhaka, Bangladesh</h2>
+            </div>
         </section>
         <section class="main-section">
-
+            <h2>Main Program</h2>
+            <hr>
+            <div class="programs-container">
+                <div class="program">
+                    <img src="./Assets/Lecture.png" alt="Lecture">
+                    <h3>Lecture</h3>
+                    <p>
+                        Listen to the speakers from various countries about the messages of sharing and opening
+                    </p>
+                </div>                
+                <div class="program">
+                    <img src="./Assets/Exhibition.png" alt="Exhibition">
+                    <h3>Exhibition</h3>
+                    <p>
+                        Appreciate various creations applying CC license of artists, organized from Art Center Nabi
+                    </p>
+                </div>                
+                <div class="program">
+                    <img src="./Assets/Forum.png" alt="Forum">
+                    <h3>Forum</h3>
+                    <p>
+                        Have the time to share your thoughts and opinions with experts for each topic.
+                    </p>
+                </div>                               
+                <div class="program">
+                    <img src="./Assets/Workshop.png" alt="Workshop">
+                    <h3>Lecture</h3>
+                    <p>
+                        Try creating your own work using open source license rather than just watching at it.
+                    </p>
+                </div>
+                <div class="program">
+                    <img src="./Assets/GenerativeAI.png" alt="Lecture">
+                    <h3>AI Showcase</h3>
+                    <p>
+                        Get opportunities to network with CC affiliates around the world, also after the summit.
+                    </p>
+                </div>
+            </div>
+            <button class="main-button">Join Global AI Summit 2023</button>
         </section>
         <section class="featured-section">
-
+            <h2>Featured Speakers</h2>
+            <hr>
+            <div class="featured-speakers-container">
+                <div class="feature-speaker-card">
+                    <div class="featured-speaker-image">
+                        <img src="./Assets/Yochai.png" alt="">
+                    </div>
+                    <div class="featured-speaker-details">
+                        <h3 class="featured-speaker-name">Yochai Benkler</h3>
+                        <p class="featured-speaker-assoication">
+                            Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School                            
+                        </p>
+                        <hr>
+                        <p class="featured-speaker-achievement">
+                            Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="show-more-less">
+                <h3>MORE</h3>
+                <img src="./Assets/downArrow.png" alt="open or collaps">
+            </div>
         </section>
+        <section class="partner-section">
+            <h2>Partner</h2>
+            <hr>
+            <div>
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+            </div>
+        </section>
+        <footer class="footer-section">
+            <div>
+                <img src="" alt="Creative-common">
+            </div>
+            <div>
+                <span>2015 Creative Commons Korea, Some Rights Reserved.</span>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde facere numquam quibusdam aperiam illum accusamus. Error, sapiente, assumenda ad animi, tempora fugiat repudiandae iste molestias delectus facere quibusdam! Iure, doloribus!
+                </p>
+            </div>
+        </footer>
     </main>
     <script src="script.js"></script>  
 </body>

@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Gothic+A1&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 
 * {
     margin: 0;
@@ -14,12 +15,6 @@ body {
 
 .social {
     display: none;
-    justify-content: end;
-    align-items: center;
-    height: 2rem;
-    gap: 1rem;
-    background-color: #3E3E3E;
-    padding-right: 10rem;
 }
 
 .social a {
@@ -126,7 +121,7 @@ body {
 }
 
 .event-date {
-    font-family: Gothic A1;
+    font-family: Gothic A1, sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 900;
@@ -251,13 +246,16 @@ body {
     display: none;
 }
 
-.feature-speaker-card {
+.featured-speaker-card {
     display: flex;
     gap: 1rem;
 }
 
 .featured-speakers-container {
+    display: flex;
+    flex-direction: column;
     padding: 1rem 0;
+    gap: 1rem;
 }
 
 .featured-speaker-name {
@@ -317,4 +315,16 @@ body {
     font-weight: 700;
     line-height: 28px;
     letter-spacing: -0.55px;
+}
+
+@media (min-width: 768px) {
+    .social {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        height: 2rem;
+        gap: 1rem;
+        background-color: #3E3E3E;
+        padding-right: 10rem;
+    }
 }
