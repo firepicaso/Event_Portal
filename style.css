@@ -6,9 +6,9 @@
     box-sizing: border-box;
     text-decoration: none;
 }
-  
+
 body {
-    background-color: #e5e5e5;
+    background-color: white;
     width: 100%;
 }
 
@@ -38,8 +38,7 @@ body {
     flex-direction: row-reverse;
     padding: 0.5rem 1.5rem;
     gap: 4rem;
-    background-color: white;
-    /* box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25); */
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .cancel-icon {
@@ -51,6 +50,7 @@ body {
 }
 
 .hero-section-container {
+    background-color: white;
     background-image: url("Assets/Background.svg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -59,15 +59,16 @@ body {
 .hero-section-container {
     display: flex;
     flex-direction: column;
-    padding: 7rem 1rem 4rem;
+    padding: 0rem 0.5rem;
 }
 
-.hero-section h1 {
+.hero-section-container h1 {
     font-family: Lato;
     font-style: normal;
     font-size: 1.5rem;
     font-weight: 400;
     color: #FF5438;
+    padding: 7rem 0.5rem 0.3rem;
 }
 
 .hero-heading {
@@ -77,6 +78,7 @@ body {
     font-weight: 900;
     letter-spacing: 0.03rem;
     padding-bottom: 1.2rem;
+    padding: 0rem 0.5rem 1rem;
 }
 
 .hero-section p {
@@ -87,18 +89,18 @@ body {
     color: #515151;
     line-height: 17px;
     letter-spacing: -0.12px;
-    border: 0.2rem solid white;
+    border: 0.3rem solid white;
     background-color: #F8F8F8;
 }
 
 .event-date {
-    color: #595959;
-    font-size: 20px;
     font-family: Gothic A1;
+    font-size: 20px;
     font-style: normal;
     font-weight: 900;
+    color: #595959;
     letter-spacing: -1.6px;
-    padding: 1rem 0 0.2rem;
+    padding: 2rem 0.5rem 0.2rem;
 }
 
 .event-venue {
@@ -108,4 +110,59 @@ body {
     font-style: normal;
     font-weight: 700;
     letter-spacing: -0.26px;
+    padding: 0.2rem 0.5rem 5rem;
+}
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #222222;
+    background-image: url(./Assets/MainBackground.svg);
+    color: white;
+    padding: 1rem 0.5rem;
+}
+
+.main-section hr {
+    width: 50px;
+}
+
+.main-section h2 {
+    font-size: 20px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.8px;
+}
+
+.program {
+    display: grid;
+    grid-template-columns: 1fr 1fr 4fr;
+    align-items: center;
+    gap: 1.5rem;
+    background-color: #3b3e45bc;
+    margin: 0.2rem;
+    padding: 0.8rem 0.5rem;
+}
+
+.program h3 {
+    color: #FF5438;
+    font-size: 14.271px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24.975px;
+    letter-spacing: -0.143px;
+    width: 50px;
+}
+
+.program p {
+    color: #FFF;
+    font-size: 10.703px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22.299px;
+    letter-spacing: 0.642px;
 }
