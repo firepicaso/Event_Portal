@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+  
+body {
+    background-color: #e5e5e5;
+    width: 100%;
+}
+
+.social {
+    display: none;
+    justify-content: end;
+    align-items: center;
+    height: 2rem;
+    gap: 1rem;
+    background-color: #3E3E3E;
+    padding-right: 10rem;
+}
+
+.social a {
+    font-size: 12px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #FFF;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 0.5rem 1.5rem;
+    gap: 4rem;
+    background-color: white;
+    /* box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25); */
+}
+
+.cancel-icon {
+    display: none;
+}
+
+.pages {
+    display: none;
+}
+
+.hero-section-container {
+    background-image: url("Assets/Background.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-section-container {
+    display: flex;
+    flex-direction: column;
+    padding: 7rem 1rem 4rem;
+}
+
+.hero-section h1 {
+    font-family: Lato;
+    font-style: normal;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #FF5438;
+}
+
+.hero-heading {
+    font-family: Lato;
+    font-style: normal;
+    font-size: 2rem;
+    font-weight: 900;
+    letter-spacing: 0.03rem;
+    padding-bottom: 1.2rem;
+}
+
+.hero-section p {
+    font-family: Lato;
+    font-style: normal;
+    font-size: 12px;
+    padding: 0.8rem;
+    color: #515151;
+    line-height: 17px;
+    letter-spacing: -0.12px;
+    border: 0.2rem solid white;
+    background-color: #F8F8F8;
+}
+
+.event-date {
+    color: #595959;
+    font-size: 20px;
+    font-family: Gothic A1;
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: -1.6px;
+    padding: 1rem 0 0.2rem;
+}
+
+.event-venue {
+    color: #868686;
+    font-size: 13px;
+    font-family: Gothic A1;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -0.26px;
+}
