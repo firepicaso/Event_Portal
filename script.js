@@ -1,26 +1,21 @@
-const menu = document.querySelector('.menu-icon');
+const pages = document.querySelector('.pages');
 const cancel = document.querySelector('.cancel-icon');
+const menu = document.querySelector('.menu-icon');
 
 function openMenu() {
     pages.classList.add('active');
     cancel.classList.add('active');
-    main.classList.add('blur');
-    logo.classList.add('blur');
-    menu.classList.add('blur');
-  }
+}
   
-  function closeMenu() {
+function closeMenu() {
     pages.classList.remove('active');
     cancel.classList.remove('active');
-    main.classList.remove('blur');
-    logo.classList.remove('blur');
-    menu.classList.remove('blur');
-  }
+}
   
-  menu.addEventListener('click', () => {
+menu.addEventListener('click', () => {
     openMenu();
-  });
+});
   
-  cancel.addEventListener('click', () => {
+cancel.addEventListener('click', () => {
     closeMenu();
-  });
+});
