@@ -370,7 +370,7 @@ body {
 
   .pages a {
     color: #868686;
-    font-family: Lato;
+    font-family: Lato, sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 800;
@@ -457,7 +457,7 @@ body {
 
   .partner-section h2 {
     color: #8f8f91;
-    font-family: Lato;
+    font-family: Lato, sans-serif;
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
