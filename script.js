@@ -119,7 +119,7 @@ const showMoreLessArrow = document.querySelector('.more-less-arrow');
 const featuredSection = document.querySelector('.featured-section');
 
 function showMoreLessSpeakers() {
-    featuredSection.classList.toggle('show-more-speakers');
+  featuredSection.classList.toggle('show-more-speakers');
 
   if (featuredSection.classList.contains('show-more-speakers')) {
     showMoreLessText.innerText = 'LESS';

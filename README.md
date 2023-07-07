@@ -1,10 +1,10 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <img src="./Assets/LogoLarge.png" alt="logo" width="140"  height="auto" />
+  <img src="./Assets/aiLogo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>EVENT PORTAL</b></h3>
+  <h3><b>Global AI Convention 2023</b></h3>
 
 </div>
 <br>
@@ -162,6 +162,8 @@ If you like this project give it a star
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank Microverse for this opportunity
+
+Special credit to [Cindy Shin](https://www.behance.net/adagio07) the [author of the original design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) on [behance.net](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) used in this project
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
