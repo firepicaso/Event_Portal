@@ -243,6 +243,8 @@ body {
 
 .past-event1 {
   background: linear-gradient(rgba(231, 77, 60, 0.5), rgba(231, 76, 60, 0.5)), url(./Assets/convention1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
   width: 334px;
   height: 182px;
 }
@@ -251,11 +253,6 @@ body {
   background: linear-gradient(rgba(231, 76, 60, 0.5), rgba(231, 76, 60, 0.5)), url(./Assets/convention2.jpg);
   width: 334px;
   height: 182px;
-}
-
-.past-event1 {
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .past-event2 {
