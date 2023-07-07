@@ -75,7 +75,7 @@ https://firepicaso.github.io/Event_Portal/index.html
 
 ## Loom Walkthrough
 
-DO - ADD LINK HERE
+https://www.loom.com/share/4300499677014200a1929b002a2d8596?sid=014022b4-c6f7-49a4-9efe-f2803d1733fb
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
