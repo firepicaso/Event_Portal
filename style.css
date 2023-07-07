@@ -332,4 +332,43 @@ body {
     background-color: #3e3e3e;
     padding-right: 10rem;
   }
+
+  .nav-container {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+  .pages {
+    display: flex;
+    justify-content: end;
+    gap: 2rem;
+  }
+
+  .pages a {
+    color: #868686;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    z-index: 444;
+  }
+
+  .featured-section {
+    height: auto;
+  }
+
+  .featured-speakers-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 60%;
+  }
+
+  .show-more-less {
+    display: none;
+  }
 }
