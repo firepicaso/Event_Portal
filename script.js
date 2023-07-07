@@ -31,7 +31,7 @@ const featuredSpeakers = [
     {
         image : './Assets/ElonMusk.png',
         fullName : 'Elon Musk',
-        association : 'CEO of Tesla Motors, spaceX, Solar city and Advisor at Open AI',
+        association : 'CEO of Tesla Motors, spaceX, Solar city',
         achievement : 'Elon Musk  is a business magnate and investor. World\'s richest person famouse for Reusable rockets and Tesla cars also co-founded Neuralink and OpenAI',
     },
     {
@@ -104,3 +104,23 @@ function addFeaturedSpeakers() {
 }
 
 document.addEventListener('DOMContentLoaded', addFeaturedSpeakers);
+
+const showMoreLess = document.querySelector('.show-more-less');
+const showMoreLessText = document.querySelector('.more-less-text');
+const showMoreLessArrow = document.querySelector('.more-less-arrow');
+
+function showMoreLessSpeakers() {
+    featuredSpeaker.classList.toggle('show-more-speakers');
+
+    if (featuredSpeaker.classList.contains('show-more-speakers')) {
+        showMoreLessText.textContent = 'LESS';
+        showMoreLessArrow.style.transform = 'rotate(180deg)';
+    } else {
+        showMoreLessText.textContent = 'MORE';
+        showMoreLessArrow.style.transform = 'rotate(0deg)';
+    }
+}
+
+showMoreLess.addEventListener('click', showMoreLessSpeakers);
+
+
