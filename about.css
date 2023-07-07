@@ -253,9 +253,13 @@ body {
   height: 182px;
 }
 
-.past-event1
+.past-event1 {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .past-event2 {
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
