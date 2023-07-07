@@ -155,7 +155,7 @@ body {
 
 .main-section hr {
   width: 35px;
-  border-color: #a04038;
+  border: 1px solid #A04038;
 }
 
 .main-section h2 {
@@ -249,7 +249,7 @@ body {
 
 .featured-section > hr {
   width: 35px;
-  border-color: #a04038;
+  border: 1px solid #A04038;
   margin: 0 0 1rem;
 }
 
@@ -298,7 +298,7 @@ body {
 
 .featured-speaker-details hr {
   width: 20px;
-  border-color: #d9d9d9;
+  border: 1px solid #d9d9d9;
   margin: 0.4rem 0;
 }
 
@@ -368,6 +368,10 @@ body {
     font-weight: 800;
     line-height: normal;
     z-index: 444;
+  }
+
+  .page-hidden {
+    display: none;
   }
 
   .pages a.nav-focus {
@@ -447,7 +451,7 @@ body {
 
   .partner-section hr {
     width: 35px;
-    border-color: #a04038;
+    border: 1px solid #A04038;
     margin: 0 0 1rem;
   }
 
