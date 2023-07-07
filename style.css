@@ -128,7 +128,7 @@ body {
 .event-venue {
   color: #868686;
   font-size: 13px;
-  font-family: Gothic A1;
+  font-family: Gothic A1, sans-serif;
   font-style: normal;
   font-weight: 700;
   letter-spacing: -0.26px;
@@ -213,9 +213,15 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 1rem 0.7rem 2.3rem;
+  padding: 1rem 0.7rem;
   overflow: hidden;
   height: 350px;
+}
+
+.show-more-speakers {
+    height: 100%;
+    overflow: visible;
+    padding-bottom: 0;
 }
 
 .featured-section h2 {
@@ -301,17 +307,17 @@ body {
   align-items: center;
   gap: 0.7rem;
   padding: 0.3rem 0;
-  margin: 2rem 0.5rem;
+  margin: 1rem 0.5rem;
   box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.25);
   border-radius: 0.15rem;
 }
 
 .show-more-less h3 {
-  color: #000;
-  font-size: 11px;
   font-family: Lato, sans-serif;
+  font-size: 11px;
   font-style: normal;
   font-weight: 700;
+  color: #000;
   line-height: 28px;
   letter-spacing: -0.55px;
 }

@@ -108,15 +108,16 @@ document.addEventListener('DOMContentLoaded', addFeaturedSpeakers);
 const showMoreLess = document.querySelector('.show-more-less');
 const showMoreLessText = document.querySelector('.more-less-text');
 const showMoreLessArrow = document.querySelector('.more-less-arrow');
+const featuredSection = document.querySelector('.featured-section');
 
 function showMoreLessSpeakers() {
-  featuredSpeaker.classList.toggle('show-more-speakers');
+    featuredSection.classList.toggle('show-more-speakers');
 
-  if (featuredSpeaker.classList.contains('show-more-speakers')) {
-    showMoreLessText.textContent = 'LESS';
+  if (featuredSection.classList.contains('show-more-speakers')) {
+    showMoreLessText.innerText = 'LESS';
     showMoreLessArrow.style.transform = 'rotate(180deg)';
   } else {
-    showMoreLessText.textContent = 'MORE';
+    showMoreLessText.innerText = 'MORE';
     showMoreLessArrow.style.transform = 'rotate(0deg)';
   }
 }
