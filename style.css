@@ -97,11 +97,11 @@ body {
 .hero-heading {
   font-family: Lato, sans-serif;
   font-style: normal;
-  font-size: 2.4rem;
+  font-size: 2rem;
   font-weight: 900;
   letter-spacing: 0.03rem;
   padding: 0 0.5rem 1rem;
-  line-height: 2.5rem;
+  line-height: 2.1rem;
   -webkit-text-stroke: 1px transparent;
   background-image: url(./Assets/Abstract.png);
   background-size: cover;
@@ -109,7 +109,6 @@ body {
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-
 }
 
 .hero-section p {
