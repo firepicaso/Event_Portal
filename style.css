@@ -25,6 +25,10 @@ body {
   color: #fff;
 }
 
+.blur {
+  filter: blur(9px);
+}
+
 .nav-container {
   display: flex;
   justify-content: start;
@@ -55,6 +59,7 @@ body {
   flex-direction: column;
   position: fixed;
   background-color: rgb(255, 79, 56, 1);
+  mix-blend-mode: multiply;
   width: 100%;
   height: 100%;
   top: 0;
@@ -388,7 +393,11 @@ body {
   }
 
   .hero-section-container {
-    margin: 0 5rem;
+    margin: 0 15rem;
+  }
+
+  .hero-section p {
+    width: 90%;
   }
 
   .programs-container {
@@ -471,6 +480,10 @@ body {
     gap: 1.5rem;
     padding: 1rem 4rem 4rem;
     flex: 1;
+  }
+
+  .partner-logo-container img {
+    width: 150px;
   }
 
   .footer-section {

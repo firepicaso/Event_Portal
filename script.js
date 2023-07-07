@@ -1,16 +1,24 @@
 const pages = document.querySelector('.pages');
 const cancel = document.querySelector('.cancel-icon');
 const menu = document.querySelector('.menu-icon');
+const logo = document.querySelector('.logo');
+const main = document.querySelector('.main');
 const featuredSpeaker = document.querySelector('.featured-speakers-container');
 
 function openMenu() {
   pages.classList.add('active');
   cancel.classList.add('active');
+  main.classList.add('blur');
+  logo.classList.add('blur');
+  menu.classList.add('blur');
 }
 
 function closeMenu() {
   pages.classList.remove('active');
   cancel.classList.remove('active');
+  main.classList.remove('blur');
+  logo.classList.remove('blur');
+  menu.classList.remove('blur');
 }
 
 menu.addEventListener('click', () => {
