@@ -69,7 +69,7 @@ We are using HTML and CSS so far in the project.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-DO - Add link to live site
+https://firepicaso.github.io/Event_Portal/index.html
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -121,7 +121,7 @@ Under construction
 
 Please check the Event Portal throug this link
 
-DO - Add a link
+https://firepicaso.github.io/Event_Portal/index.html
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
