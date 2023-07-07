@@ -75,11 +75,14 @@ body {
   z-index: 998;
 }
 
-.hero-section-container {
+.hero-section {
   background-color: white;
   background-image: url("Assets/Background.svg");
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.hero-section-container {
   display: flex;
   flex-direction: column;
   padding: 0 0.5rem;
@@ -382,6 +385,10 @@ body {
     border: 3px solid red;
     padding: 0.5rem;
     margin: 0 2rem;    
+  }
+
+  .hero-section-container {
+    margin: 0 5rem;
   }
 
   .programs-container {
