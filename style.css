@@ -116,6 +116,7 @@ body {
   background-repeat: no-repeat;
   -webkit-background-clip: text;
   background-clip: text;
+  background-color: white;
   color: transparent;
 }
 
