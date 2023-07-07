@@ -114,7 +114,6 @@ body {
   background-image: url(./Assets/Abstract.png);
   background-size: cover;
   background-repeat: no-repeat;
-  background-clip: text;
   -webkit-background-clip: text;
   background-color: white;
   color: transparent;
