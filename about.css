@@ -1,0 +1,473 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background-color: white;
+  width: 100%;
+}
+
+.social {
+  display: none;
+}
+
+.social a {
+  font-size: 12px;
+  font-family: Lato, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #fff;
+}
+
+.blur {
+  filter: blur(9px);
+}
+
+.nav-container {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: row-reverse;
+  padding: 0.5rem 1.5rem;
+  gap: 4rem;
+  box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.pages {
+  display: none;
+  list-style: none;
+}
+
+.pages a {
+  font-family: Lato, sans-serif;
+  font-style: normal;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+}
+
+.pages.active {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  background-color: rgb(255, 79, 56, 1);
+  mix-blend-mode: multiply;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  padding-top: 105px;
+  padding-left: 40px;
+  gap: 1.2rem;
+  z-index: 997;
+}
+
+.cancel-icon {
+  display: none;
+}
+
+.cancel-icon.active {
+  display: flex;
+  position: fixed;
+  z-index: 998;
+}
+
+.hero-section-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  background-image: url("Assets/Background.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0 0.5rem;
+}
+
+.hero-section-container h1 {
+  font-family: Lato, sans-serif;
+  font-style: normal;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #ff5438;
+  padding-top: 0.56rem;
+}
+
+.hero-heading {
+  font-family: Lato, sans-serif;
+  text-align: center;
+  color: #ff5438;
+  font-style: normal;
+  font-size: 2rem;
+  font-weight: 900;
+  letter-spacing: 0.03rem;
+  padding: 1rem 0.5rem 3rem;
+  line-height: 2.1rem;
+  -webkit-text-stroke: 1px #ff5438;
+}
+
+.hero-section-container hr {
+  display: none;
+}
+
+.hero-paragraph {
+  color: #000;
+  background-color: white;
+  text-align: center;
+  font-family: Lato, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: -0.84px;
+  padding: 1.25rem;
+}
+
+.event-details-container {
+  background-color: #f7f7f8;
+  z-index: 99;
+}
+
+.event-date {
+  color: #7a7a7a;
+  text-align: center;
+  font-family: Lato, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  padding-top: 1.56rem;
+}
+
+.event-venue {
+  color: #5f5f5f;
+  text-align: center;
+  font-family: Lato, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 25px;
+  letter-spacing: 0.24px;
+  text-decoration-line: underline;
+  padding-bottom: 1.56rem;
+}
+
+.logo-swag {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1.2rem;
+}
+
+.logo-swag-heading {
+  color: #2c2c2c;
+  text-align: center;
+  font-family: Lato, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+  padding-bottom: 1.25rem;
+}
+
+.logo-swag hr {
+  width: 35px;
+  border: 1px solid #a04038;
+  margin: 0 0 1rem;
+}
+
+.logo-swag-details {
+  color: #838383;
+  text-align: center;
+  font-family: Lato, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: -0.48px;
+  padding: 0 1rem 2.19rem;
+}
+
+.logo-itself {
+  box-shadow: 0 0 2px 0.5px rgba(0, 0, 0, 0.15);
+}
+
+.past-conventions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 1rem 2.1rem;
+  margin-top: 2rem;
+  box-shadow: 0 0 2px 0.5px rgba(0, 0, 0, 0.15);
+}
+
+.past-convention-heading {
+  color: #2c2c2c;
+  font-family: Lato, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -0.4px;
+  padding-bottom: 0.5rem;
+}
+
+.past-conventions hr {
+  width: 35px;
+  border: 1px solid #a04038;
+  margin: 0 0 1rem;
+}
+
+.past-convention-details {
+  color: #838383;
+  text-align: center;
+  font-family: Lato, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: -0.36px;
+  padding: 0 0.5rem 2.19rem;
+}
+
+.past-events-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  width: 100%;
+}
+
+.past-event1 {
+  background: linear-gradient(rgba(231, 77, 60, 0.5), rgba(231, 76, 60, 0.5)), url(./Assets/convention1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 334px;
+  height: 182px;
+}
+
+.past-event2 {
+  background: linear-gradient(rgba(231, 76, 60, 0.5), rgba(231, 76, 60, 0.5)), url(./Assets/convention2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 334px;
+  height: 182px;
+}
+
+.past-event-year {
+  color: #fff;
+  font-family: Lato, sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 28px;
+  letter-spacing: -0.2px;
+  padding-top: 4rem;
+  text-align: center;
+}
+
+.past-event-location {
+  color: #fff;
+  font-family: Lato, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  letter-spacing: -0.2px;
+  text-align: center;
+}
+
+.partner-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #414246;
+}
+
+.partner-section h2 {
+  color: #fff;
+  font-family: Lato, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: -0.2px;
+  margin: 1.5rem 0 0.5rem;
+}
+
+.partner-section hr {
+  width: 35px;
+  border: 1px solid #a04038;
+  margin: 0 0 1rem;
+}
+
+.partner-logo-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 1.5rem;
+  padding: 1rem 0.5rem 2rem;
+  flex: 1;
+}
+
+.partner-logo-container img {
+  width: 100px;
+}
+
+.footer-section {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0.5rem;
+  gap: 2rem;
+}
+
+.footer-section img {
+  width: 100px;
+}
+
+.footer-details h3 {
+  color: #3b3e45;
+  font-family: Lato, sans-serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 13.078px;
+  letter-spacing: -0.1px;
+  width: 8rem;
+}
+
+.footer-details p {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .social {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 2rem;
+    gap: 1rem;
+    background-color: #3e3e3e;
+    padding-right: 8rem;
+  }
+
+  .nav-container {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+  .pages {
+    display: flex;
+    justify-content: end;
+    gap: 2rem;
+  }
+
+  .pages a {
+    color: #868686;
+    font-family: Lato, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    z-index: 444;
+  }
+
+  .pages a.nav-focus {
+    color: #f07f7e;
+  }
+
+  .nav-red-border {
+    border: 3px solid red;
+    padding: 0.5rem;
+    margin: 0 2rem;
+  }
+
+  .hero-section-container h1 {
+    display: none;
+  }
+
+  .hero-heading {
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+  }
+
+  .hero-section-container hr {
+    display: flex;
+    width: 35px;
+    border: 1px solid #a04038;
+    margin: 0 0 1rem;
+  }
+
+  .hero-paragraph {
+    margin: 0 4rem;
+  }
+
+  .hero-paragraph::after {
+    content: "This year, we hope to expand our invitation list including organizations and individuals who want to work with us on shared projects that advance the cause of the Commons, free culture and open knowledge. So if you're active and engaged in the worlds of open content and knowledge - free software advocates, wikipedians, Open knowledge, galleries, libraries, museums, archives, governments and foundations, lawyers, and activists - we hope you'll consider joining us this year to build a stronger, more vibrant commons together";
+  }
+
+  .logo-swag-details {
+    margin: 0 5rem;
+  }
+
+  .logo-swag-details::after {
+    content: "After online public voting and Selection Committee’s judging process, the logo from Naresh Agrawal won the prize. After consultation with Mr. Agrawal, we optimized the prize-winning-logo for this year’s summit as follows:";
+  }
+
+  .past-events-container {
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .partner-section {
+    display: none;
+  }
+
+  .footer-section {
+    justify-content: center;
+    align-items: center;
+    background-color: #2e2e2e;
+  }
+
+  .footer-image {
+    width: 150px;
+    content: url(./Assets/conventionWhite.png);
+  }
+
+  .footer-details h3 {
+    color: #fff;
+    font-family: Lato, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.14px;
+    width: auto;
+    padding-bottom: 1rem;
+  }
+
+  .footer-details p {
+    display: flex;
+    color: #fff;
+    font-family: Lato, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.56px;
+  }
+}
